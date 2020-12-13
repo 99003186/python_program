@@ -1,0 +1,40 @@
+class phone:
+    def _init_(self, price):
+        self.price = price
+
+
+def getprice(self, price):
+        return price
+
+
+class phone1:
+    def _init_(self, model):
+        self.model = model
+
+
+def getmodel(self, model):
+        return model
+
+
+class phone2(phone, phone1):
+    def _init_(self, phnname):
+        self.phnname = phnname
+
+
+def phone1(self, phnname):
+        return phnname
+# Defining a function which generates
+# list of all the Phones
+
+# Main Code
+
+obj1 = phone()
+obj2 = phone1()
+obj3 = phone2()
+phnname = input('Enter the name of the Phone: ')
+model = input('Enter the model number: ')
+price = input('price: ')
+Record = [obj1.getprice(price), obj2.getmodel(model), obj3.phone1(phnname)]
+# Printing the list of Phone
+for i in Record:
+    print(i)
